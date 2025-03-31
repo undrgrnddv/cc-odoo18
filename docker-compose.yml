@@ -8,7 +8,7 @@ services:
     volumes:
       - odoo-web-data:/var/lib/odoo
       - /home/c/cc-odoo18/myaddons/cysbros:/mnt/extra-addons/cysbros
-      - /home/c/cc-odoo18/myaddons/oca-account-financial-reporting-17.0:/mnt/extra-addons/financial-reporting-17.0
+#      - /home/c/cc-odoo18/myaddons/oca-account-financial-reporting-17.0:/mnt/extra-addons/financial-reporting-17.0
       - /home/c/cc-odoo18/config:/etc/odoo
     env_file: /home/c/conf/.env
     restart: always
