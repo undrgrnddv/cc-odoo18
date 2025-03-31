@@ -9,6 +9,8 @@ services:
       - odoo-web-data:/var/lib/odoo
       - /home/c/cc-odoo18/myaddons/cysbros:/mnt/extra-addons/cysbros
       - /home/c/cc-odoo18/myaddons/oca-account-financial-tools-18.0:/mnt/extra-addons/oca-account-financial-tools-18.0
+      - /home/c/cc-odoo18/myaddons/oca-account-financial-reporting-18.0:/mnt/extra-addons/oca-account-financial-reporting-18.0
+      - /home/c/cc-odoo18/myaddons/oca-l10n-mexico-18.0:/mnt/extra-addons/oca-l10n-mexico-18.0
       - /home/c/cc-odoo18/config:/etc/odoo
     env_file: /home/c/conf/.env
     restart: always
@@ -27,4 +29,5 @@ volumes:
 #  - /home/c/cc-odoo18/myaddons/carpeta_addons2:/mnt/extra-addons/carpeta_addons2
 #  - /home/c/cc-odoo18/myaddons/otra_carpeta_addons:/mnt/extra-addons/otra_carpeta_addons
 #  - /home/c/cc-odoo18/myaddons:/mnt/extra-addons # Si quieres incluir la raíz también
+
 
