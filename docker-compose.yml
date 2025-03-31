@@ -13,8 +13,7 @@ services:
       - /home/c/cc-odoo18/myaddons/oca-account-financial-reporting-18.0:/mnt/extra-addons/oca-account-financial-reporting-18.0
       - /home/c/cc-odoo18/myaddons/oca-l10n-mexico-17.0:/mnt/extra-addons/oca-l10n-mexico-17.0
       - /home/c/cc-odoo18/myaddons/oca-currency-18.0:/mnt/extra-addons/oca-currency-18.0
-
-      
+      - /home/c/cc-odoo18/myaddons/server-ux-18.0:/mnt/extra-addons/server-ux-18.0      
       - /home/c/cc-odoo18/config:/etc/odoo
     env_file: /home/c/conf/.env
     restart: always
