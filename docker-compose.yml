@@ -11,6 +11,7 @@ services:
       - /home/c/cc-odoo18/myaddons/cysbros:/mnt/extra-addons/cysbros
       - /home/c/cc-odoo18/myaddons/oca-account-financial-tools-18.0:/mnt/extra-addons/oca-account-financial-tools-18.0
       - /home/c/cc-odoo18/myaddons/oca-account-financial-reporting-18.0:/mnt/extra-addons/oca-account-financial-reporting-18.0
+      - /home/c/cc-odoo18/myaddons/oca-l10n-mexico-17.0-cc:/mnt/extra-addons/oca-l10n-mexico-17.0-cc
       - /home/c/cc-odoo18/config:/etc/odoo
     env_file: /home/c/conf/.env
     restart: always
