@@ -8,7 +8,11 @@ services:
     volumes:
       - odoo-web-data:/var/lib/odoo
       - /home/c/cc-odoo18/myaddons:/mnt/extra-addons
-      - /home/c/cc-odoo18/myaddonspathdir.conf:/etc/odoo/myaddonspathdir.conf
+      - /home/c/conf/odoo.conf:/etc/odoo/odoo_main.conf       
+      - /home/c/cc-odoo18/myaddonspathdir.conf:/etc/odoo/odoo_addons.conf 
+    env_file: /home/c/conf/.env
+    command: -c /etc/odoo/odoo_main.conf -c /etc/odoo/odoo_addons.conf
+
     env_file: /home/c/conf/.env
     restart: always
   db:
@@ -20,3 +24,5 @@ services:
 volumes:
   odoo-web-data:
   odoo-db-data:
+
+
