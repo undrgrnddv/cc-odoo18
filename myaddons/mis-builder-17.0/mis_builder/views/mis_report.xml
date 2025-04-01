@@ -3,10 +3,11 @@
     <record model="ir.ui.view" id="mis_report_view_tree">
         <field name="name">mis.report.view.tree</field>
         <field name="model">mis.report</field>
+        <field name="type">tree</field>
         <field name="arch" type="xml">
             <tree>
-                <field name="name" />
-                <field name="description" />
+                <field name="name"/>
+                <field name="description"/>
             </tree>
         </field>
     </record>
