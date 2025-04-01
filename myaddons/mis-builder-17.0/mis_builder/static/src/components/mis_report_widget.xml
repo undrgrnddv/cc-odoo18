@@ -23,17 +23,17 @@
                             </div>
                             <div class="oe_mis_builder_action_buttons">
                                 <button t-on-click="refresh" class="btn">
-                                    <span class="fa fa-refresh" /> Refresh </button>
+                                    <span class="lu lu-refresh-cw" /> Refresh </button>
                                 <button t-on-click="printPdf" class="btn">
-                                    <span class="fa fa-print" /> Print </button>
+                                    <span class="lu lu-printer" /> Print </button>
                                 <button t-on-click="exportXls" class="btn">
-                                    <span class="fa fa-download" /> Export </button>
+                                    <span class="lu lu-download" /> Export </button>
                                 <button
                                     t-on-click="displaySettings"
                                     t-if="widget_show_settings_button"
                                     class="btn"
                                 >
-                                    <span class="fa fa-cog" /> Settings </button>
+                                    <span class="lu lu-settings" /> Settings </button>
                             </div>
                         </div>
                     </div>

@@ -31,14 +31,14 @@
                     type="object"
                     name="preview"
                     string="Preview"
-                    icon="fa-search"
+                    icon="lu lu-search"
                 />
-                <button type="object" name="print_pdf" string="Print" icon="fa-print" />
+                <button type="object" name="print_pdf" string="Print" icon="lu lu-printer" />
                 <button
                     type="object"
                     name="export_xls"
                     string="Export"
-                    icon="fa-download"
+                    icon="lu lu-download"
                 />
                 <field name="name" />
                 <field name="report_id" string="Template" />
@@ -63,28 +63,28 @@
                             type="object"
                             name="preview"
                             string="Preview"
-                            icon="fa-search"
+                            icon="lu lu-search"
                             class="btn"
                         />
                         <button
                             type="object"
                             name="print_pdf"
                             string="Print"
-                            icon="fa-print"
+                            icon="lu lu-printer"
                             class="btn"
                         />
                         <button
                             type="object"
                             name="export_xls"
                             string="Export"
-                            icon="fa-download"
+                            icon="lu lu-download"
                             class="btn"
                         />
                         <button
                             type="action"
                             name="%(mis_report_instance_add_to_dashboard_action)d"
                             string="Add to dashboard"
-                            icon="fa-plus"
+                            icon="lu lu-plus"
                             invisible="temporary"
                             class="btn"
                         />
@@ -263,21 +263,21 @@
                         type="object"
                         name="preview"
                         string="Preview"
-                        icon="fa-search"
+                        icon="lu lu-search"
                         class="btn"
                     />
                     <button
                         type="object"
                         name="print_pdf"
                         string="Print"
-                        icon="fa-print"
+                        icon="lu lu-printer"
                         class="btn"
                     />
                     <button
                         type="object"
                         name="export_xls"
                         string="Export"
-                        icon="fa-download"
+                        icon="lu lu-download"
                         class="btn"
                     /> or <button string="Cancel" class="oe_link" special="cancel" />
                 </footer>
